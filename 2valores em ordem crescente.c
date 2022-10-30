@@ -10,15 +10,13 @@ int main(){
     scanf ("%d", &b);
     
     if (a > b) {
-        printf ("%d", b);
-        printf ("<");
-        printf ("%d", a);
+        printf ("%d < %d", b, a);
+        
     }
     
     else{
-        printf ("%d", a);
-        printf ("<");
-        printf ("%d", b);
+        printf ("%d < %d", a, b);
+        
     }
     return 0;
 }
