@@ -4,9 +4,9 @@ int main (){
     int numero;
     
         printf ("Digite o número inteiro: ");
-        scanf ("%d", &numero);
+        scanf ("%s", &numero);
         
-        printf ("O número inteiro introduzido foi: %d ", numero);
+        printf ("O número inteiro introduzido foi: %s ", numero);
         return 0;
         
 }
